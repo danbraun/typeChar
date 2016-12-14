@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>typeChar</title>
+
+</head>
+<style>
+    body {
+        font-family: "Adobe Fangsong Std";
+        color: black;
+        background: navajowhite;
+    }
+    li {
+        list-style: none;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+    label {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+    input {
+        height: 20px;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    button {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 1rem;
+    }
+    button span {
+        font-size: 2em;
+    }
+
+</style>
+<body>
+
+
+<form>
+    <ul>
+        <li><label>Enter Word 1</label></li>
+        <li><input id="field1" type="text"></li>
+        <li><label>Enter Word 2</label></li>
+        <li><input id="field2" type="text"></li>
+        <button data-letter="ą" onclick="return false;" id="typeChar1" data-char="">
+            <span>ą</span>
+        </button>
+        <button data-letter="Ą" onclick="return false;" id="typeChar2" data-char="">
+            <span>Ą</span>
+        </button>
+        <button data-letter="ǧ" onclick="return false;" id="typeChar3" data-char="">
+            <span>ǧ</span>
+        </button>
+        <button data-letter="Ǧ" onclick="return false;" id="typeChar4" data-char="">
+            <span>Ǧ</span>
+        </button>
+        <button data-letter="į" onclick="return false;" id="typeChar5" data-char="">
+            <span>į</span>
+        </button>
+        <button data-letter="Į" onclick="return false;" id="typeChar6" data-char="">
+            <span>Į</span>
+        </button>
+        <button data-letter="š" onclick="return false;" id="typeChar7" data-char="">
+            <span>š</span>
+        </button>
+        <button data-letter="Š" onclick="return false;" id="typeChar8" data-char="">
+            <span>Š</span>
+        </button>
+        <button data-letter="ų" onclick="return false;" id="typeChar9" data-char="">
+            <span>ų</span>
+        </button>
+        <button data-letter="Ų" onclick="return false;" id="typeChar9" data-char="">
+            <span>Ų</span>
+        </button>
+        <button data-letter="ž" onclick="return false;" id="typeChar9" data-char="">
+            <span>ž</span>
+        </button>
+        <button data-letter="Ž" onclick="return false;" id="typeChar9" data-char="">
+            <span>Ž</span>
+        </button>
+    </ul>
+</form>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous">
+</script>
+<script src="js/main.js"></script>
+<script>
+    $(window.MainModule.init);
+</script>
+</body>
+</html>
